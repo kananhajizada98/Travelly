@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    height: 600px;
+}
+nav{
+    padding-top: 30px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a {
+    font: 300 2em "Open Sans";
+letter-spacing: 1px;
+color: #f4f3ee;
+text-align: center;
+}
+nav i{
+    color: #fff;
+    font-size: 32px;
+}
+header section h3{
+    margin-top: 220px;
+    text-align: center;
+    font: 300 3.25em "Open Sans";
+letter-spacing: 2px;
+color: #fff;
+
+}
+header section form{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+header section form input{
+    width: 325px;
+    height: 40px;
+    font: 400 1em "Open Sans";
+letter-spacing: 1px;
+color: #8b8b8b;
+padding-left: 15px;
+transition: width .5s linear .5s ;
+}
+header section form input:hover{
+    width: 365px;
+}
+
+
+header section form button{
+    width: 120px;
+    height: 40px;
+    background-color: #fd4f32;
+    outline: none;
+    border: none;
+    font: 700 1em "Open Sans";
+letter-spacing: 1px;
+color: #fff;
+text-align: center;
+
+transition: width .5s linear .5s;
+}
+header section form button:hover{
+width: 150px;
+background-color: purple;
+}
+#iki {
+    background-color: #eeeeee;
+    height: 530px;
+
+}
+#iki article  h3{
+    font: 400 1em "Montserrat" ;
+letter-spacing: 0;
+color: #323232;
+padding-top: 60px;
+}
+article > p{
+    margin-top: 15px;
+    font: 400 .9em "Open Sans";
+    letter-spacing: 0;
+    color: #8b8b8b;
+}
+#trip{
+    display: flex;
+}
+.price{
+    margin-top: 40px;
+    position: relative;
+    background-color:#FFF;
+    margin-right: 15px;
+    transition: width .5s linear .5s , height .5s linear .5s;
+}
+
+.price:hover{
+    width: 300px;
+    height: 300px;
+
+}
+
+
+span{
+    position: absolute;
+    color:#FFF;
+    bottom: 130px;
+    right: 15px;
+}
+.price h3{
+    font: 400 .9em "Montserrat";
+letter-spacing: 0;
+color: #323232;
+padding-top: 20px;
+padding-left: 15px;
+}
+.price p{
+    font: 400 .85em "Open Sans";
+line-height: 19px;
+color: #696969;
+padding-left: 15px;
+padding-top: 20px;
+width: 204px;
+height: 75px;
+
+}
+#uc {
+    height: 615px;
+    background-color: #FFF;
+}
+#uc section>h3{
+    padding-top: 80px;
+    font: 300 3.25em  "Open Sans";
+letter-spacing: 2px;
+color: #323232;
+
+}
+#flex {
+    display: flex;
+}
+.info{
+    margin-top: 70px;
+    margin-right: 60px;
+    width: 330px;
+    height: 150px;
+    
+}
+.info h3{
+    font: 400 1em "Montserrat";
+letter-spacing: 0;
+color: #323232;
+}
+.info p{
+    margin-top: 20px;
+    font: 400 .95em "Open Sans";
+letter-spacing: 0;
+line-height: 22px;
+color: #8b8b8b;
+}
+#uc h4{
+    margin-top: 80px;
+    text-align: center;
+    font: 400 1em "Montserrat";
+letter-spacing: 0;
+color: #323232;
+}
+#uc form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#uc form input{
+    width: 330px;
+    height: 40px;
+    background-color: #eee;
+    font: 400 1em "Open Sans";
+letter-spacing: 1px;
+color: #8b8b8b;
+padding-left: 15px;
+
+}
+#uc form button{
+    width: 150px;
+    background-color: #fd4f32;
+    border: none;
+    outline:none;
+    cursor: auto;
+    font: 700 1em "Open Sans";
+letter-spacing: 1px;
+color: #FFF;
+text-align: center;
+}
+footer{
+    height: 75px;
+    background-color: #eee;
+    margin-top: 80px;
+}
+
+footer section{
+    display: flex;
+}
+footer section p{
+    font: 400 .9em "Open Sans";
+letter-spacing: 0;
+line-height: 22px;
+color: #8b8b8b;
+margin-top: 30px;
+}
+footer section ul{
+display: flex;
+margin-top: 30px;
+margin-left: 100px;
+}
+footer section a {
+    font: 400 .9em "Montserrat";
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #323232;
+  margin-right: 20px;
+}
+@media only screen and (max-width:768px ) {
+    nav{
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header section h3{
+        margin-top: 120px;
+        font: 300 2.25em "Open Sans";
+    }
+        header section form input{
+            width: 255px;
+            height: 40px;
+            font: 400 .8em "Open Sans";
+        padding-left: 15px;
+        }
+        article{
+            display: flex;
+            flex-direction: column;
+            
+                }
+                .info{
+                    margin-top: 70px;
+                    margin-right: 60px;
+                    width: 430px;
+                    height: 280px;
+                    
+                }
+                .info p{
+                    font: 400 .8 5em "Open Sans";
+                }
+                #uc form input{
+                    width: 230px;
+                    height: 40px;
+                
+                }
+                #uc form button{
+                    width: 110px; 
+                }
+                footer section a {
+                    font: 400 .6em "Montserrat";
+                }
+                footer section p{
+                    font: 400 .7em "Open Sans";
+                }
+                
+}
